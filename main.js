@@ -1,6 +1,6 @@
 const GITHUB_TOKEN = "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";
 const OWNER = "manlinh";
-const REPO = "timesheet";
+const REPO = "timetable";
 const SCHEDULE_PATH = "data/schedule.json";
 const MESSAGES_PATH = "data/messages.json";
 
