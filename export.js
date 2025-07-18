@@ -1,6 +1,6 @@
 function exportSchedule() {
   const user = localStorage.getItem("currentUser");
-  fetch(`https://raw.githubusercontent.com/manlinh/timesheet/main/data/schedule.json`)
+  fetch(`https://raw.githubusercontent.com/manlinh/timetable/main/data/schedule.json`)
     .then(res => res.json())
     .then(data => {
       const schedule = data[user] || [];
